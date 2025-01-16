@@ -1,0 +1,3 @@
+# Assembly Code Bug: Out-of-Bounds Memory Access
+
+This repository demonstrates a common error in assembly programming: accessing memory outside of allocated bounds.  The `bug.asm` file contains code that is prone to a segmentation fault if the `ecx` register holds a sufficiently large value. The `bugSolution.asm` file provides a corrected version with bounds checking to prevent this fault.  The issue is explained further in the `bug.asm` file's comments.  This example highlights the importance of careful memory management in low-level programming.
